@@ -68,9 +68,9 @@ export default function Component() {
   <RadioGroup>
   <RadioGroup defaultValue={`Pieza`} onChange={(_e0) => addEvents([Event("state.set_tipo_pieza", {value:_e0})], (_e0), {})}>
   <HStack spacing={`3em`}>
-  {["Bandeja", "Pieza"].map((ieirwvsv, xapjxtul) => (
-  <Radio key={xapjxtul} value={ieirwvsv}>
-  {ieirwvsv}
+  {["Bandeja", "Pieza"].map((kcifpvxw, xoclnsdj) => (
+  <Radio key={xoclnsdj} value={kcifpvxw}>
+  {kcifpvxw}
 </Radio>
 ))}
 </HStack>
